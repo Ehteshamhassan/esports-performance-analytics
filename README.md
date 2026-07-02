@@ -16,7 +16,7 @@ This project is an interactive business intelligence dashboard built in **Power 
 * **Damage Consistency:** A smoothed area chart mapping Average Damage Per Round (DPR) to visualize combat effectiveness over time.
 * **Interactive Filtering:** A dedicated slicer allowing users to filter the entire dashboard by specific time periods.
 
-## ⚙️ Data Engineering & DAX Implementation
+## Data Engineering & DAX Implementation
 To ensure a scalable and professional backend, the project utilizes a dedicated measure table architecture. Custom DAX measures include:
 * `Average Win Rate = AVERAGE('Match_Data'[winrate])`
 * `Average K/D Ratio = AVERAGE('Match_Data'[kd_ratio])`
